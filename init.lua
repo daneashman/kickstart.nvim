@@ -618,6 +618,7 @@ require('lazy').setup({
         -- ts_ls = {},
         --
         svelte = {},
+        eslint = {},
 
         lua_ls = {
           -- cmd = {...},
@@ -934,6 +935,7 @@ require('lazy').setup({
   -- { import = 'custom.plugins' },
 
   -- NOTE: DANE'S PLUGINS:
+  { 'ThePrimeagen/vim-be-good' },
   --
   -- { 'https://codeberg.org/esensar/nvim-dev-container', opts = {} },
 }, {
